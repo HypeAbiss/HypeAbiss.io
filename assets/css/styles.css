@@ -350,8 +350,8 @@ button {
 /* ~~~~~~~~~~ Buttons ~~~~~~~~~~ */
 .button {
     display: inline-block;
-    background-color: var(--first-color);
-    color: var(--title-color);
+    background-color: #000;
+    color: #fff;
     padding: 1rem 1.75rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
@@ -363,12 +363,14 @@ button {
 }
 
 .button__icon {
+    color: #fff;
     font-size: 1.25rem;
 }
 
 .button--support {
     border: 2px solid;
-    background-color: transparent;
+    color: #fff;
+    background-color: #000;
     border-radius: 3rem;
     padding: .75rem 1.5rem;
 }
@@ -479,6 +481,14 @@ button {
 .barang__icon {
     font-size: 1.25rem;
     color: var(--title-color);
+}
+
+.lihat__lainnya {
+    display: inline-flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 25rem;
+    position: initial;
 }
 
 .barang__content:hover .barang__img {
